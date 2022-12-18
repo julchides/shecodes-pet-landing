@@ -136,7 +136,7 @@ h2 {
   color: var(--light);
   text-align: center;
   background-color: var(--dark);
-  background: url("../images/intro-pic.jpg") center / cover no-repeat fixed;
+  background: url("./images/intro-pic.jpg") center / cover no-repeat fixed;
 }
 
 .section-intro p {
@@ -171,7 +171,7 @@ a.button-instagram:hover {
 
 .section-transition {
   background-color: var(--dark);
-  background: url("../images/back-section-transition.jpg") center / cover
+  background: url("./images/back-section-transition.jpg") center / cover
     no-repeat fixed;
 }
 
