@@ -211,23 +211,7 @@ a.button-instagram:hover {
 }
 
 .profile-photo {
-  width: 24vw;
-  border-radius: 50%;
-}
-
-.profile-outline {
-  width: 28vw;
-  position: absolute;
-  top: 50%;
-  transform: translate(0, -50%);
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.profile-outline-pic {
-  width: 28vw;
+  width: 25vw;
 }
 
 .section-kishka .profile-outline {
@@ -306,6 +290,10 @@ a.button-instagram:hover {
 
 .section-video {
   background-color: var(--dark-transparent);
+}
+
+.container-video {
+  padding-bottom: 7rem;
 }
 
 /* Video background */
@@ -421,9 +409,6 @@ a.button-instagram:hover {
 
 /* Responsive for small screens */
 
-@media screen and (max-width: 1200px) {
-}
-
 @media screen and (max-width: 900px) {
   .container {
     width: 80vw;
@@ -455,30 +440,15 @@ a.button-instagram:hover {
   }
 
   .profile-pic {
+    margin-top: 5rem;
     height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
   }
 
   .profile-photo {
-    width: 60vw;
-    border-radius: 50%;
-  }
-
-  .profile-outline {
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .profile-outline-pic {
-    width: 70vw;
+    width: 50vw;
   }
 
   .sum-line {
@@ -496,5 +466,9 @@ a.button-instagram:hover {
   .photo-list {
     margin-top: 5vh;
     gap: 3vw;
+  }
+
+  .container-video {
+    padding-bottom: 20vh;
   }
 }
